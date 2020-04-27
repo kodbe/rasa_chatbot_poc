@@ -1,0 +1,58 @@
+intents:
+  - greet
+  - greet_es
+  - business_name_es
+  - address_es
+  - affirm_es
+  - deny_es
+  - bot_challenge_es
+  - goodbye_es
+
+actions:
+- utter_greet_es
+- utter_ask_business_name_es
+- utter_ask_business_address_es
+- utter_goodbye_es
+- utter_thanks_es
+- utter_iamabot_es
+
+responses:
+  utter_greet:
+  - text: "Hi I am calling from Dataplor. I have a few questions about your business."
+
+  utter_greet_es:
+  - text: "Hola, llamo desde Dataplor. Tengo algunas preguntas sobre tu negocio."
+
+  utter_ask_business_name:
+  - text: "is this your business name?"
+
+  utter_ask_business_name_es:
+  - text: "este es tu nombre comercial?"
+
+  utter_ask_business_address:
+  - text: "is this your business address?"
+
+  utter_ask_business_address_es:
+  - text: "esta es tu dirección?"
+
+  utter_goodbye:
+  - text: "thank you for your time. bye"
+
+  utter_goodbye_es:
+  - text: "Gracias por tu tiempo. adiós"
+
+  utter_thanks:
+  - text: "thanks"
+
+  utter_thanks_es:
+  - text: "Gracias"
+
+  utter_iamabot:
+  - text: "Yes I am a robot created by Dataplor calling to confirm your business information"
+
+  utter_iamabot_es:
+  - text: "Sí, soy un robot creado por Dataplor llamando para confirmar la información de su negocio"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
